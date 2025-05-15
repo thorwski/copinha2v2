@@ -27,7 +27,7 @@ const Footer = () => {
               Regras
             </a>
             <a
-              href="#"
+              href="/premiacao"
               className="text-gray-300 hover:text-orange-500 transition-colors"
             >
               Premiação
