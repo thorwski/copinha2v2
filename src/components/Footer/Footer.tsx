@@ -15,13 +15,13 @@ const Footer = () => {
 
           <div className="flex flex-wrap justify-center gap-6">
             <a
-              href="#"
+              href="/"
               className="text-gray-300 hover:text-orange-500 transition-colors"
             >
               Inscrição
             </a>
             <a
-              href="#"
+              href="/regras"
               className="text-gray-300 hover:text-orange-500 transition-colors"
             >
               Regras
@@ -33,7 +33,7 @@ const Footer = () => {
               Premiação
             </a>
             <a
-              href="#"
+              href="https://wa.me/+5511959358507?text=Olá,%20tenho%20interesse%20em%20participar%20da%20Copinha%202v2"
               className="text-gray-300 hover:text-orange-500 transition-colors"
             >
               Contato

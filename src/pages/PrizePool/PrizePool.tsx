@@ -432,7 +432,7 @@ const PrizePool = () => {
               href="/"
               className="bg-transparent text-black font-bold py-3 px-8 rounded-md 
                        transform hover:scale-105 transition-all duration-300 
-                       border-2 border-black hover:bg-black/10 w-full md:w-fit max-w-[250px] mx-auto md:mx-0"
+                       border-2 border-black hover:bg-black/10 w-full md:w-fit max-w-[250px] mx-auto sm:mx-0"
             >
               VOLTAR PARA HOME
             </a>
