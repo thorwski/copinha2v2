@@ -11,6 +11,10 @@ const GallerySection = () => {
     //     'Jogador atinge marca histórica e é eleito o "Bagre de Ouro" 5 vezes pela Copinha 2v2',
     // },
     {
+      src: "/assets/images/mamede.png",
+      caption: "Mamede faz história e ganha sua primeira Copinha 2v2",
+    },
+    {
       src: "/assets/images/tutu.png",
       caption: "Tutu decepciona fãs e é criticado na final da Copinha 2v2",
     },
