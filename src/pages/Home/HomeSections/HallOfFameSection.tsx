@@ -54,7 +54,7 @@ const HallOfFameSection = () => {
         info1: "Suporte impecável",
         info2: "Flexível",
         percent: "75%",
-        image: "/assets/images/clover.png",
+        image: "/assets/images/clover2.jpg",
       },
     ],
     duo: [
