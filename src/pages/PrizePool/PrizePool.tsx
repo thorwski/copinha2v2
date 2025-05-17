@@ -328,7 +328,7 @@ const PrizePool = () => {
                   </div>
                   <button
                     onClick={() => setShowTerms(!showTerms)}
-                    className="text-orange-500 hover:text-orange-400 transition-colors"
+                    className="text-orange-500 hover:text-orange-400 transition-colors cursor-pointer"
                   >
                     {showTerms ? "Ocultar" : "Mostrar"}
                   </button>
@@ -423,7 +423,7 @@ const PrizePool = () => {
                 className="bg-black text-white font-bold py-3 px-8 rounded-md 
                        transform hover:scale-105 transition-all duration-300 
                        border-2 border-black hover:border-white
-                       shadow-[0_0_15px_rgba(0,0,0,0.3)] w-full md:w-fit max-w-[250px]"
+                       shadow-[0_0_15px_rgba(0,0,0,0.3)] w-full md:w-fit max-w-[250px] cursor-pointer"
               >
                 INSCREVA-SE AGORA
               </button>

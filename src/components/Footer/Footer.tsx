@@ -38,12 +38,6 @@ const Footer = () => {
             >
               Contato
             </a>
-            <a
-              href="#"
-              className="text-gray-300 hover:text-orange-500 transition-colors"
-            >
-              FAQ
-            </a>
           </div>
 
           <div className="mt-6 md:mt-0 flex gap-4">

@@ -85,7 +85,7 @@ const Rules = () => {
             <div className="flex flex-col md:flex-row justify-center mb-10 gap-2">
               <button
                 onClick={() => setActiveTab("formato")}
-                className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${
+                className={`px-4 py-2 rounded-md text-sm font-medium transition-colors cursor-pointer ${
                   activeTab === "formato"
                     ? "bg-orange-500 text-white"
                     : "bg-gray-800 text-gray-300 hover:bg-gray-700"
@@ -95,7 +95,7 @@ const Rules = () => {
               </button>
               <button
                 onClick={() => setActiveTab("operadores")}
-                className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${
+                className={`px-4 py-2 rounded-md text-sm font-medium transition-colors cursor-pointer ${
                   activeTab === "operadores"
                     ? "bg-orange-500 text-white"
                     : "bg-gray-800 text-gray-300 hover:bg-gray-700"
@@ -105,7 +105,7 @@ const Rules = () => {
               </button>
               <button
                 onClick={() => setActiveTab("restricoes")}
-                className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${
+                className={`px-4 py-2 rounded-md text-sm font-medium transition-colors cursor-pointer ${
                   activeTab === "restricoes"
                     ? "bg-orange-500 text-white"
                     : "bg-gray-800 text-gray-300 hover:bg-gray-700"
@@ -115,7 +115,7 @@ const Rules = () => {
               </button>
               <button
                 onClick={() => setActiveTab("penalidades")}
-                className={`px-4 py-2 rounded-md text-sm font-medium transition-colors ${
+                className={`px-4 py-2 rounded-md text-sm font-medium transition-colors cursor-pointer ${
                   activeTab === "penalidades"
                     ? "bg-orange-500 text-white"
                     : "bg-gray-800 text-gray-300 hover:bg-gray-700"
