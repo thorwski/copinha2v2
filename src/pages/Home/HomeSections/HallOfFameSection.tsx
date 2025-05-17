@@ -12,7 +12,7 @@ const HallOfFameSection = () => {
         info1: "Especialista em clutches",
         info2: "Operador favorito: Ash",
         percent: "92%",
-        image: "/assets/images/ilord.png",
+        image: "/assets/images/ilord2.jpg",
       },
       {
         name: "THORWSKI",
@@ -46,7 +46,7 @@ const HallOfFameSection = () => {
         info1: "Conhecido como 'O Cara'",
         info2: "Jogador mais versátil",
         percent: "80%",
-        image: "/assets/images/ilord.png",
+        image: "/assets/images/ilord2.jpg",
       },
       {
         name: "SwitxxClover",
