@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Footer from "../../components/Footer/Footer";
 
 const PrizePool = () => {
@@ -19,15 +20,15 @@ const PrizePool = () => {
 
         <div className="container mx-auto px-4 z-20 text-center">
           <div className="mb-6">
-            <a
-              href="/"
+            <Link
+              to="/"
               className="inline-block mb-8 transform hover:scale-105 transition-transform duration-300"
             >
               <h1 className="text-4xl md:text-6xl font-orbitron font-bold tracking-wider font-[Orbitron]">
                 <span className="text-white">COPINHA</span>
                 <span className="text-orange-500"> 2v2</span>
               </h1>
-            </a>
+            </Link>
 
             <h2 className="text-3xl md:text-5xl font-orbitron font-bold mb-4 font-[Orbitron]">
               <span className="text-white">PREMIAÇÃO E </span>
@@ -428,14 +429,14 @@ const PrizePool = () => {
                 INSCREVA-SE AGORA
               </button>
             </a>
-            <a
-              href="/"
+            <Link
+              to="/"
               className="bg-transparent text-black font-bold py-3 px-8 rounded-md 
                        transform hover:scale-105 transition-all duration-300 
                        border-2 border-black hover:bg-black/10 w-full md:w-fit max-w-[250px] mx-auto sm:mx-0"
             >
               VOLTAR PARA HOME
-            </a>
+            </Link>
           </div>
         </div>
       </section>

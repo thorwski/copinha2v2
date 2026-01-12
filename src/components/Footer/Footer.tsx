@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="bg-black py-12 border-t border-gray-800">
@@ -14,24 +16,24 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-wrap justify-center gap-6">
-            <a
-              href="/"
+            <Link
+              to="/"
               className="text-gray-300 hover:text-orange-500 transition-colors"
             >
               Inscrição
-            </a>
-            <a
-              href="/regras"
+            </Link>
+            <Link
+              to="/regras"
               className="text-gray-300 hover:text-orange-500 transition-colors"
             >
               Regras
-            </a>
-            <a
-              href="/premiacao"
+            </Link>
+            <Link
+              to="/premiacao"
               className="text-gray-300 hover:text-orange-500 transition-colors"
             >
               Premiação
-            </a>
+            </Link>
             <a
               href="https://wa.me/+5511959358507?text=Olá,%20tenho%20interesse%20em%20participar%20da%20Copinha%202v2"
               className="text-gray-300 hover:text-orange-500 transition-colors"

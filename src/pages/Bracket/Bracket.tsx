@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import Footer from "../../components/Footer/Footer";
 
 const Bracket = () => {
@@ -42,15 +43,15 @@ const Bracket = () => {
 
         <div className="container mx-auto px-4 z-20 text-center">
           <div className="mb-6">
-            <a
-              href="/"
+            <Link
+              to="/"
               className="inline-block mb-8 transform hover:scale-105 transition-transform duration-300"
             >
               <h1 className="text-4xl md:text-6xl font-orbitron font-bold tracking-wider font-[Orbitron]">
                 <span className="text-white">COPINHA</span>
                 <span className="text-orange-500"> 2v2</span>
               </h1>
-            </a>
+            </Link>
 
             <h2 className="text-3xl md:text-5xl font-orbitron font-bold mb-4 font-[Orbitron]">
               <span className="text-white">CHAVEAMENTO</span>
